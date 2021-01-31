@@ -8,10 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var index = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack(spacing: 0) {
+            ColorView(index: $index)
+            NaviView(index: $index)
+        }
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

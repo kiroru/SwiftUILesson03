@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SwiftUILesson03
+
+  Created by 高田 朋輝 on 2021/01/24.
+  
+*/
+
+"green" = "緑";
+"blue" = "青";
+"red" = "赤";
+"next" = "次へ";
