@@ -13,11 +13,6 @@
 		5E5BE24425BD796800F65F35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5BE24325BD796800F65F35 /* Preview Assets.xcassets */; };
 		5E5BE24F25BD796800F65F35 /* SwiftUILesson03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE24E25BD796800F65F35 /* SwiftUILesson03Tests.swift */; };
 		5E5BE25A25BD796800F65F35 /* SwiftUILesson03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE25925BD796800F65F35 /* SwiftUILesson03UITests.swift */; };
-		5E5BE26B25BD7A9C00F65F35 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE26A25BD7A9C00F65F35 /* GreenView.swift */; };
-		5E5BE27025BD7AB700F65F35 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE26F25BD7AB700F65F35 /* BlueView.swift */; };
-		5E5BE27525BD7ACF00F65F35 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE27425BD7ACF00F65F35 /* RedView.swift */; };
-		5E5BE27A25BD819300F65F35 /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE27925BD819300F65F35 /* NaviView.swift */; };
-		5E5BE27F25BD8FC300F65F35 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE27E25BD8FC300F65F35 /* ColorView.swift */; };
 		5E5BE28825BD97F600F65F35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E5BE28A25BD97F600F65F35 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -51,11 +46,6 @@
 		5E5BE25525BD796800F65F35 /* SwiftUILesson03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILesson03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5BE25925BD796800F65F35 /* SwiftUILesson03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILesson03UITests.swift; sourceTree = "<group>"; };
 		5E5BE25B25BD796800F65F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E5BE26A25BD7A9C00F65F35 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
-		5E5BE26F25BD7AB700F65F35 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
-		5E5BE27425BD7ACF00F65F35 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
-		5E5BE27925BD819300F65F35 /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
-		5E5BE27E25BD8FC300F65F35 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		5E5BE28925BD97F600F65F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5E5BE28E25BD980B00F65F35 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,11 +103,6 @@
 				5E5BE24025BD796800F65F35 /* Assets.xcassets */,
 				5E5BE24525BD796800F65F35 /* Info.plist */,
 				5E5BE24225BD796800F65F35 /* Preview Content */,
-				5E5BE26A25BD7A9C00F65F35 /* GreenView.swift */,
-				5E5BE26F25BD7AB700F65F35 /* BlueView.swift */,
-				5E5BE27425BD7ACF00F65F35 /* RedView.swift */,
-				5E5BE27925BD819300F65F35 /* NaviView.swift */,
-				5E5BE27E25BD8FC300F65F35 /* ColorView.swift */,
 				5E5BE28A25BD97F600F65F35 /* Localizable.strings */,
 			);
 			path = SwiftUILesson03;
@@ -280,12 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E5BE27025BD7AB700F65F35 /* BlueView.swift in Sources */,
-				5E5BE26B25BD7A9C00F65F35 /* GreenView.swift in Sources */,
-				5E5BE27F25BD8FC300F65F35 /* ColorView.swift in Sources */,
-				5E5BE27525BD7ACF00F65F35 /* RedView.swift in Sources */,
 				5E5BE23F25BD796500F65F35 /* ContentView.swift in Sources */,
-				5E5BE27A25BD819300F65F35 /* NaviView.swift in Sources */,
 				5E5BE23D25BD796500F65F35 /* SwiftUILesson03App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
