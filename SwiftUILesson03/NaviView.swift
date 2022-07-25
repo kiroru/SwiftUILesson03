@@ -18,7 +18,7 @@ struct NaviView: View {
                 replaceView()
             })
         }
-        .frame(height: 100, alignment: .bottom)
+        .frame(height: 100)
     }
     
     func replaceView() {
@@ -31,4 +31,10 @@ struct NaviView: View {
         }
     }
     
+}
+
+struct NaviView_Previews: PreviewProvider {
+    static var previews: some View {
+        NaviView(index: .constant(0))
+    }
 }
